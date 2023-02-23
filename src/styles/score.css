@@ -1,0 +1,14 @@
+.score-container {
+  display: flex;
+  justify-content: space-around;
+}
+.points-div {
+  display: flex;
+}
+.points-img {
+  width: 11rem;
+  height: 9rem;
+}
+.points {
+  font-size: 3rem;
+}
