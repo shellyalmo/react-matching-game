@@ -39,7 +39,7 @@ const Voting = ({
     }
   };
 
-  return currentCelebrityIndex < celebrities.length ? (
+  return goodPoints + badPoints < celebrities.length ? (
     <div className="voting-container">
       <button onClick={voteHandler} className="false-btn">
         False
